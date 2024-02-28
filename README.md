@@ -560,6 +560,7 @@ But don't forget to do coding problems from above while you learn!
 - Don't worry if you don't understand all the math behind it.
 - You just need to understand how to express the complexity of an algorithm in terms of Big-O.
 - []  [Big-O Overview] (https://www.geeksforgeeks.org/understanding-time-complexity-simple-examples/)
+- [] [Big-O Overview](https://www.geeksforgeeks.org/understanding-time-complexity-simple-examples/)
 - [x] [Big-O Notation (youtube Bro-Code)](https://www.youtube.com/watch?v=iOq5kSKqeR4](https://www.youtube.com/watch?v=XMUe3zFhM5c))
 - [x] [Harvard CS50 - Asymptotic Notation (video)](https://www.youtube.com/watch?v=iOq5kSKqeR4)
 - [x] [Big O Notations (general quick tutorial) (video)](https://www.youtube.com/watch?v=V6mKVRU1evU)
