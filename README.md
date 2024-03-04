@@ -594,8 +594,8 @@ if you can identify the runtime complexity of different algorithms. It's a super
             - can allocate int array under the hood, just not use its features
             - start with 16, or if the starting number is greater, use power of 2 - 16, 32, 64, 128
         - [x] size() - number of items
-        - [ ] capacity() - number of items it can hold
-        - [ ] is_empty()
+        - [x] capacity() - number of items it can hold
+        - [x] is_empty()
         - [x] at(index) - returns the item at a given index, blows up if index out of bounds
         - [x] push(item)
         - [ ] insert(index, item) - inserts item at index, shifts that index's value and trailing elements to the right
