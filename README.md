@@ -596,14 +596,16 @@ if you can identify the runtime complexity of different algorithms. It's a super
         - [x] size() - number of items
         - [x] capacity() - number of items it can hold
         - [x] is_empty()
-        - [x] at(index) - returns the item at a given index, blows up if index out of bounds
+        - [x] at(index) - returns the item at a given index, blows up if index out of bounds (see get() function below).
         - [x] push(item)
         - [ ] insert(index, item) - inserts item at index, shifts that index's value and trailing elements to the right
         - [ ] prepend(item) - can use insert above at index 0
         - [ ] pop() - remove from end, return value
-        - [ ] delete(index) - delete item at index, shifting all trailing elements left
+        - [x] delete(vec) - deletes all items, free's memory
+        - [ ] delete_item(index) - delete item at index, shifting all trailing elements left
         - [ ] remove(item) - looks for value and removes index holding it (even if in multiple places)
-        - [ ] find(item) - looks for value and returns first index with that value, -1 if not found
+        - [x] find(item) - looks for value and returns first index with that value, -1 if not found
+        - [x] get(item, index) - gets item at specified index (returns -1 if not found)
         - [ ] resize(new_capacity) // private function
             - when you reach capacity, resize to double the size
             - when popping an item, if the size is 1/4 of capacity, resize to half
