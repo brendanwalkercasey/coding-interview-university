@@ -595,14 +595,14 @@ if you can identify the runtime complexity of different algorithms. It's a super
             - start with 16, or if the starting number is greater, use power of 2 - 16, 32, 64, 128
         - [x] size() - number of items
         - [x] capacity() - number of items it can hold
-        - [ ] is_empty()
-        - [ ] at(index) - returns the item at a given index, blows up if index out of bounds (see get() function below).
+        - [x] is_empty()
+        - [x] at(index) - returns the item at a given index, blows up if index out of bounds (see get() function below).
         - [x] push(item)
         - [x] insert(index, item) - inserts item at index, shifts that index's value and trailing elements to the right
-        - [ ] prepend(item) - can use insert above at index 0
+        - [x] prepend(item) - can use insert above at index 0
         - [x] pop() - remove from end, return value
-        - [ ] delete(vec) - deletes all items, free's memory
-        - [ ] delete_item(index) - delete item at index, shifting all trailing elements left
+        - [x] delete(vec) - deletes all items, free's memory
+        - [x] delete_item(index) - delete item at index, shifting all trailing elements left
         - [x] remove(item) - looks for value and removes index holding it (even if in multiple places)
         - [x] find(item) - looks for value and returns first index with that value, -1 if not found
         - [x] resize(new_capacity) // private function
@@ -616,35 +616,35 @@ if you can identify the runtime complexity of different algorithms. It's a super
         - space needed = (array capacity, which is >= n) * size of item, but even if 2n, still O(n)
 
 - ### Linked Lists
-    - [ ] Description:
-    	- [ ] [Linked Lists CS50 Harvard University](https://www.youtube.com/watch?v=2T-A_GFuoTo&t=650s) - this builds the intuition.
-        - [ ] [Singly Linked Lists (video)](https://www.coursera.org/lecture/data-structures/singly-linked-lists-kHhgK)
-        - [ ] [CS 61B - Linked Lists 1 (video)](https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0)
-        - [ ] [CS 61B - Linked Lists 2 (video)](https://archive.org/details/ucberkeley_webcast_-c4I3gFYe3w)
-        - [ ] [[Review] Linked lists in 4 minutes (video)](https://youtu.be/F8AbOfQwl1c)
-    - [ ] [C Code (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
+    - [x] Description:
+    	- [x] [Linked Lists CS50 Harvard University](https://www.youtube.com/watch?v=2T-A_GFuoTo&t=650s) - this builds the intuition.
+        - [x] [Singly Linked Lists (video)](https://www.coursera.org/lecture/data-structures/singly-linked-lists-kHhgK)
+        - [x] [CS 61B - Linked Lists 1 (video)](https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0)
+        - [x] [CS 61B - Linked Lists 2 (video)](https://archive.org/details/ucberkeley_webcast_-c4I3gFYe3w)
+        - [x] [[Review] Linked lists in 4 minutes (video)](https://youtu.be/F8AbOfQwl1c)
+    - [x] [C Code (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
             - not the whole video, just portions about Node struct and memory allocation
-    - [ ] Linked List vs Arrays:
+    - [x] Linked List vs Arrays:
         - [Core Linked Lists Vs Arrays (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-linked-lists-vs-arrays-rjBs9)
         - [In The Real World Linked Lists Vs Arrays (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/in-the-real-world-lists-vs-arrays-QUaUd)
     - [ ] [Why you should avoid linked lists (video)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
-    - [ ] Gotcha: you need pointer to pointer knowledge:
+    - [x] Gotcha: you need pointer to pointer knowledge:
         (for when you pass a pointer to a function that may change the address where that pointer points)
         This page is just to get a grasp on ptr to ptr. I don't recommend this list traversal style. Readability and maintainability suffer due to cleverness.
         - [Pointers to Pointers](https://www.eskimo.com/~scs/cclass/int/sx8.html)
-    - [ ] Implement (I did with tail pointer & without):
-        - [ ] size() - returns the number of data elements in the list
-        - [ ] empty() - bool returns true if empty
-        - [ ] value_at(index) - returns the value of the nth item (starting at 0 for first)
-        - [ ] push_front(value) - adds an item to the front of the list
-        - [ ] pop_front() - remove the front item and return its value
-        - [ ] push_back(value) - adds an item at the end
+    - [x] Implement (I did with tail pointer & without):
+        - [x] size() - returns the number of data elements in the list
+        - [x] empty() - bool returns true if empty
+        - [x] value_at(index) - returns the value of the nth item (starting at 0 for first)
+        - [x] push_front(value) - adds an item to the front of the list
+        - [x] pop_front() - remove the front item and return its value
+        - [x] push_back(value) - adds an item at the end
         - [ ] pop_back() - removes end item and returns its value
-        - [ ] front() - get the value of the front item
-        - [ ] back() - get the value of the end item
+        - [x] front() - get the value of the front item
+        - [x] back() - get the value of the end item
         - [x] insert(index, value) - insert value at index, so the current item at that index is pointed to by the new item at the index
-        - [ ] erase(index) - removes node at given index
-        - [ ] value_n_from_end(n) - returns the value of the node at the nth position from the end of the list
+        - [x] erase(index) - removes node at given index
+        - [x] value_n_from_end(n) - returns the value of the node at the nth position from the end of the list
         - [x] reverse() - reverses the list
         - [x] remove_value(value) - removes the first item in the list with this value
     - [x] Doubly-linked List
@@ -657,14 +657,14 @@ if you can identify the runtime complexity of different algorithms. It's a super
     - [ ] Will not implement. Implementing with the array is trivial
 
 - ### Queue
-    - [ ] [Queue (video)](https://www.coursera.org/lecture/data-structures/queues-EShpq)
-    - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
+    - [x] [Queue (video)](https://www.coursera.org/lecture/data-structures/queues-EShpq)
+    - [x] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
     - [ ] [[Review] Queues in 3 minutes (video)](https://youtu.be/D6gu-_tmEpQ)
-    - [ ] Implement using linked-list, with tail pointer:
+    - [x] Implement using linked-list, with tail pointer:
         - enqueue(value) - adds value at a position at the tail
         - dequeue() - returns value and removes least recently added element (front)
         - empty()
-    - [ ] Implement using a fixed-sized array:
+    - [x] Implement using a fixed-sized array:
         - enqueue(value) - adds item at end of available storage
         - dequeue() - returns value and removes least recently added element
         - empty()
